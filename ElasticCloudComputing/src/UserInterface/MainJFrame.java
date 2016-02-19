@@ -233,6 +233,8 @@ public class MainJFrame extends javax.swing.JFrame {
             return;
         }
         this.listOfServersAvailable = new Service[numberOfAvailableServers];
+        JOptionPane.showMessageDialog(null, "Servers allocated");
+        allocateServersJButton.setEnabled(false);
     }//GEN-LAST:event_allocateServersJButtonActionPerformed
 
     private void startJButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_startJButtonActionPerformed
